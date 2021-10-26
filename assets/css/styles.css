@@ -1,6 +1,7 @@
 :root {
   --main-color: #22c5a2;
   --scroll-color: #596263;
+  --scroll-color-hover: #707e80;
   --background: #11101D;
   --secondary: #1d1b2c;
   --link: #345faf;
@@ -10,21 +11,26 @@
   --nav-text-color: #00FFF5;
 }
 
-/* scroll bar */
-
-/* scroll bar */
-
+/* Scroll Bar */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: black;
+  margin-block: 8px;
+  /* background: black; */
 }
 
-::-webkit-scrollbar-thumb {
+:hover::-webkit-scrollbar-thumb {
   background: var(--scroll-color);
+  border-radius: 10px;
 }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scroll-color-hover);
+  border-radius: 10px;
+}
+/* Scroll Bar End */
 
 .footer-dark {
   padding: 50px 0;
