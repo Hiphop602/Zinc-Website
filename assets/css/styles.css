@@ -609,36 +609,36 @@ body.dark {
 
 
 .nav-links ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
 }
 
 .nav-links li {
-    list-style: none;
-    transition: all 0.3s ease;
+  list-style: none;
+  transition: all 0.3s ease;
 }
 
 .nav-links li:hover {
-    background-color: #262d3b62;
-    border-radius: 10px;
+  background-color: #262d3b62;
+  border-radius: 10px;
 }
 
 .nav-links li a:hover:not(.nav-links li a.active) {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .nav-links li a {
-    color: white;
-    text-decoration: none;
-    padding: 1rem;
-    letter-spacing: .12rem;
-    font-size: 1.45rem;
-    font-weight: normal;
-    line-height: 2rem;
-    display: block;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  letter-spacing: .12rem;
+  font-size: 1.45rem;
+  font-weight: normal;
+  line-height: 2rem;
+  display: block;
 }
 
-.nav-links li a.active {
-    color: var(--nav-text-color);
+.active {
+  color: var(--nav-text-color);
 }
