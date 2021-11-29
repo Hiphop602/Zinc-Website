@@ -9,6 +9,7 @@
   --secondary-text-color: #dcdcdc;
   --m: #474350;
   --nav-text-color: #00FFF5;
+  --after_white: #FFFFFF;
 }
 
 /* Scroll Bar */
@@ -174,7 +175,7 @@ a {
 }
 
 .accordion .accordion-item button[aria-expanded='true'] {
-  border-bottom: 1px solid var(--link);
+  border-bottom: 1px solid var(--after_white);
 }
 
 .accordion button {
