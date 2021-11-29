@@ -239,7 +239,7 @@ a {
 }
 
 .accordion button[aria-expanded='true'] {
-  color: var(--link);
+  color: var(--after_white);
 }
 
 .accordion button[aria-expanded='true'] .icon::after {
