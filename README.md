@@ -18,6 +18,10 @@
 ## Links you might find useful:
 > https://top.gg/bot/786105219757899777
 
+>https://discordbotlist.com/bots/zinc
+
+>https://bots.discordlabs.org/bot/786105219757899777
+
 *More coming soon!*
 
 ## Contributors 
